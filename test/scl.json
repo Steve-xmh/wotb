@@ -1,0 +1,4 @@
+{
+    "exec_file": "D:/Documents/Programs/Minecraft/SharpCraftLauncher-20210705-0fe86e-i686.exe",
+    "window_script": "for _, v in ipairs(windows) do if v.name == 'Sharp Craft Launcher' then return true end end"
+}
