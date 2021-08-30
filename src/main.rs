@@ -104,7 +104,7 @@ fn test_window_open_time(input: &InputData) {
             test_window_open_time_once(&input, &lua, &window_script)
         );
     }
-    v.sort();
+    v.sort_unstable();
     dbg!(v.iter().fold(0, |acc, &x| acc + x) / 20 as u128);
     dbg!(v.first());
     dbg!(v.last());
