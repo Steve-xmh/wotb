@@ -40,9 +40,9 @@ dependencies = [
 
 [[package]]
 name = "luajit-src"
-version = "210.1.4+resty8404d7f"
+version = "210.3.2+resty1085a4d"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cd98051767391af4fa24b5d3a9b6dace632bf2d92c6a6e0abf566109649aa75b"
+checksum = "b1e27456f513225a9edd22fc0a5f526323f6adb3099c4de87a84ceb842d93ba4"
 dependencies = [
  "cc",
 ]
@@ -55,9 +55,9 @@ checksum = "b16bd47d9e329435e309c58469fe0791c2d0d1ba96ec0954152a5ae2b04387dc"
 
 [[package]]
 name = "mlua"
-version = "0.6.1"
+version = "0.7.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ff25078fb9dc28e915fa72bf6128e35db8af8e07f27a746ddd95dc69b640e2dd"
+checksum = "7d4c93ad12064932ae8f0667ecd09ca714ff44813fa1d1965ae4279108b67f21"
 dependencies = [
  "bstr",
  "cc",
@@ -66,6 +66,7 @@ dependencies = [
  "num-traits",
  "once_cell",
  "pkg-config",
+ "rustc-hash",
 ]
 
 [[package]]
@@ -106,6 +107,12 @@ checksum = "c3d0b9745dc2debf507c8422de05d7226cc1f0644216dfdfead988f9b1ab32a7"
 dependencies = [
  "proc-macro2",
 ]
+
+[[package]]
+name = "rustc-hash"
+version = "1.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "08d43f7aa6b08d49f382cde6a7982047c3426db949b1424bc4b7ec9ae12c6ce2"
 
 [[package]]
 name = "ryu"

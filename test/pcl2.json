@@ -1,4 +1,6 @@
 {
-    "exec_file": "D:/Documents/Programs/Minecraft/Plain Craft Launcher 2.exe",
+    "exec_file": "./Plain Craft Launcher 2.exe",
+    "exec_args": [],
+    "bench_amount": 20,
     "window_script": "for _, v in ipairs(windows) do if v.name == 'Plain Craft Launcher 2\u3000' then return true end end"
 }
